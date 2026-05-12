@@ -1,3 +1,3 @@
 <?php
-echo "Hello";
+include("../php/chat.php");
 ?>

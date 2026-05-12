@@ -303,7 +303,7 @@ function sendMessage(){
 
     // SEND TO PHP
 
-    fetch("send.php", {
+    fetch("/php/send.php", {
 
         method:"POST",
 
