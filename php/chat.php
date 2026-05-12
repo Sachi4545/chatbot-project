@@ -15,6 +15,8 @@ if (!isset($_SESSION['session_id'])) {
 
 $session_id = $_SESSION['session_id'];
 
+
+
 // LOAD CHATS
 
 $messages = $conn->query("

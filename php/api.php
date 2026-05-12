@@ -4,7 +4,7 @@ include_once 'config.php';
 
 function getBotReply($message, $session_id, $conn) {
 
-    $apiKey = "YOUR_API_KEY";
+    $apiKey = GROQ_API_KEY;
 
     // LOAD PREVIOUS CHATS
 
